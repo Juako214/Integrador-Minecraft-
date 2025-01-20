@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding:0;
+    background: #0f0c29;  
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+height:100px;
+}
+.Formulario{
+width:400px;
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%) ;
+background-color:white;
+border-radius:10px;
+border: 5px Solid black;
+}
+.Formulario h1{
+text-align: center;
+font-size:2rem;
+font-style: italic;
+}
+.Username{
+    padding-left: 8px;
+    text-align:left;
+    font-size: 20px;
+    font-style: italic;
+}
+.contraseña{
+    padding-left: 8px;
+    text-align:left;
+    font-size: 20px;
+    font-style: italic;
+}
+.Recordar{
+    padding-left:5px;
+    text-align:left;
+    font-size: 20px;
+    font-style: italic;
+}
+button {
+    --color: #0077ff;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 17px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  button::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  button:hover {
+    color: white;
+  }
+  
+  button:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.3s all;
+  }
+  
+  button:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+.Registro{
+  font-size:20px;
+  font-style: italic;
+  
+}
+  
+  
